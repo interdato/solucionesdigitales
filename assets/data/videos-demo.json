@@ -1,0 +1,44 @@
+[
+  {
+    "archivo": "dashboard-operativo-demo.mp4",
+    "titulo": "Dashboard operativo de logística",
+    "categoria": "Dashboard / BI",
+    "descripcion": "Vista ejecutiva de órdenes, cumplimiento, retrasos, incidencias y rutas críticas.",
+    "valor": "Centraliza información dispersa para priorizar decisiones operativas."
+  },
+  {
+    "archivo": "ia-deteccion-demo.mp4",
+    "titulo": "Monitoreo visual con IA",
+    "categoria": "IA visual",
+    "descripcion": "Simulación de detección visual sobre un entorno industrial.",
+    "valor": "Convierte una cámara en fuente de datos, alertas y evidencia operativa."
+  },
+  {
+    "archivo": "epp-deteccion-personas-demo.mp4",
+    "titulo": "Detección de equipo de protección personal",
+    "categoria": "Seguridad / EPP",
+    "descripcion": "Identificación de personas y validación visual de equipo requerido.",
+    "valor": "Documenta cumplimiento y genera alertas en zonas críticas."
+  },
+  {
+    "archivo": "inventario-racks-demo.mp4",
+    "titulo": "Detección de inventario en racks",
+    "categoria": "Inventario / Racks",
+    "descripcion": "Análisis visual de ocupación, pallets, vacíos o diferencias en racks.",
+    "valor": "Acelera conteos y apoya conciliaciones contra sistema."
+  },
+  {
+    "archivo": "postura-ergonomia-demo.mp4",
+    "titulo": "Detección de postura y ergonomía",
+    "categoria": "Ergonomía / Prevención",
+    "descripcion": "Identificación de posturas, ángulos o movimientos asociados a riesgo ergonómico.",
+    "valor": "Apoya prevención de lesiones, documentación de riesgos y capacitación."
+  },
+  {
+    "archivo": "validacion-epp-demo.mp4",
+    "titulo": "Validación de EPP en zonas operativas",
+    "categoria": "EPP / Control operativo",
+    "descripcion": "Validación visual adicional para cumplimiento de equipo de seguridad.",
+    "valor": "Funciona como filtro preventivo antes de entrar a zonas de riesgo."
+  }
+]
