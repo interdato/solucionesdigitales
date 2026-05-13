@@ -1,6 +1,0 @@
-orden_id,cliente,origen,destino,estado,prioridad,eta,incidencias,responsable
-OT-1048,Autotransportes Norte,Monterrey,Querétaro,En tránsito,Alta,2026-05-21 16:30,0,Laura Gómez
-OT-1049,Frío Express,Saltillo,McAllen,Retrasada,Media,2026-05-21 18:10,1,Carlos Ruiz
-OT-1050,Industrial Pack,Apodaca,San Luis Potosí,Programada,Baja,2026-05-22 09:00,0,Mariana Pérez
-OT-1051,Logística Delta,Guadalupe,Nuevo Laredo,En patio,Alta,2026-05-21 14:20,2,Raúl Medina
-OT-1052,Transporte Vega,Monterrey,Tampico,Completada,Media,2026-05-20 20:40,0,Ana Torres
