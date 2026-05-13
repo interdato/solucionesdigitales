@@ -1,0 +1,416 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Interdato | Tecnología que mueve operaciones</title>
+  <meta name="description" content="Portafolio interactivo de Interdato para logística, transporte e industria: sistemas a la medida, dashboards, trazabilidad QR, automatización, integraciones e inteligencia artificial con cámaras." />
+  <meta property="og:title" content="Interdato | Soluciones digitales para logística y transporte" />
+  <meta property="og:description" content="Demos de dashboards, bases de datos, trazabilidad, automatización, integraciones e IA aplicada a operaciones industriales." />
+  <meta property="og:image" content="assets/images/hero-logistica.jpg" />
+  <meta property="og:type" content="website" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <nav class="nav" aria-label="Navegación principal">
+    <div class="container nav-inner">
+      <a href="#inicio" class="brand" aria-label="Interdato">
+        <img src="assets/images/interdato-logo.svg" alt="Interdato · Tecnología que mueve operaciones" />
+      </a>
+      <button class="menu-btn" aria-label="Abrir menú" data-menu>☰</button>
+      <div class="nav-links" data-nav>
+        <a href="#demos">Demos</a>
+        <a href="#videos">Videos IA</a>
+        <a href="#soluciones">Soluciones</a>
+        <a href="#roi">ROI</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero" id="inicio">
+    <img src="assets/images/hero-logistica.jpg" alt="Operación logística digitalizada" class="hero-bg" />
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <span class="eyebrow"><span></span> Soluciones digitales para logística, transporte e industria</span>
+        <h1>Tecnología que mueve operaciones.</h1>
+        <p class="lead">Sistemas a la medida, dashboards, automatización, trazabilidad e inteligencia artificial con cámaras para reducir errores, controlar procesos críticos y convertir la operación diaria en decisiones accionables.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#demos">Explorar demos</a>
+          <a class="btn btn-secondary" href="assets/docs/presentacion-interdato-soluciones-digitales.pdf" target="_blank" rel="noopener">Abrir presentación</a>
+        </div>
+      </div>
+      <div class="hero-panel">
+        <p class="panel-title">Capacidades del portafolio</p>
+        <div class="mini-grid">
+          <div><strong>Dashboards</strong><span>KPIs operativos, retrasos, rutas, costos e incidencias.</span></div>
+          <div><strong>Sistemas</strong><span>Órdenes, clientes, unidades, activos, evidencias y bitácoras.</span></div>
+          <div><strong>Trazabilidad</strong><span>QR, códigos de barras, escaneos, responsables e historial auditable.</span></div>
+          <div><strong>IA visual</strong><span>Zonas de riesgo, EPP, racks, ergonomía y monitoreo preventivo.</span></div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section intro-section">
+      <div class="container two-col">
+        <div>
+          <p class="kicker">Enfoque</p>
+          <h2>Más que software: soluciones operativas medibles.</h2>
+        </div>
+        <div class="rich-text">
+          <p>Interdato diseña soluciones digitales para empresas que necesitan visibilidad, trazabilidad y control en procesos logísticos, de transporte, almacén o planta industrial.</p>
+          <p>El portafolio muestra ejemplos concretos de sistemas, dashboards, bases de datos, automatización, integraciones e inteligencia artificial aplicados a problemas reales de operación.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="demos">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="kicker">Demo center</p>
+            <h2>Ejemplos interactivos de soluciones.</h2>
+          </div>
+          <p>Selecciona una categoría para visualizar cómo podría funcionar una solución digital dentro de una operación logística, de transporte o industrial.</p>
+        </div>
+
+        <div class="tabs" role="tablist" aria-label="Demos interactivas">
+          <button class="tab active" data-tab="dashboard">Dashboard</button>
+          <button class="tab" data-tab="database">Base de datos</button>
+          <button class="tab" data-tab="qr">Trazabilidad QR</button>
+          <button class="tab" data-tab="vision">IA: zona de riesgo</button>
+          <button class="tab" data-tab="integraciones">Integraciones</button>
+        </div>
+
+        <div class="demo-panel active" id="dashboard" data-panel>
+          <div class="demo-layout">
+            <div class="demo-visual dashboard-demo">
+              <div class="dash-top">
+                <div><span>Órdenes hoy</span><strong>128</strong></div>
+                <div><span>Entregas a tiempo</span><strong>91%</strong></div>
+                <div><span>Incidencias</span><strong>7</strong></div>
+                <div><span>Unidades activas</span><strong>42</strong></div>
+              </div>
+              <div class="chart-card">
+                <p>Desempeño por ruta</p>
+                <div class="bar"><span style="--w:87%"></span><em>Monterrey - Querétaro</em></div>
+                <div class="bar"><span style="--w:64%"></span><em>Saltillo - McAllen</em></div>
+                <div class="bar"><span style="--w:78%"></span><em>Apodaca - San Luis</em></div>
+                <div class="bar"><span style="--w:53%"></span><em>Guadalupe - Nuevo Laredo</em></div>
+              </div>
+              <div class="alert-stream" id="alertStream"></div>
+            </div>
+            <div class="demo-copy">
+              <h3>Dashboard operativo para dirección y operaciones</h3>
+              <p>Centraliza indicadores de órdenes, retrasos, cumplimiento, unidades activas, incidencias y rutas críticas en una sola vista.</p>
+              <ul>
+                <li><strong>Problema que resuelve:</strong> decisiones basadas en llamadas, reportes manuales o archivos dispersos.</li>
+                <li><strong>Valor para la operación:</strong> visibilidad rápida de prioridades, cuellos de botella y cumplimiento.</li>
+                <li><strong>Aplicable a:</strong> transporte, distribución, almacén, patios, mantenimiento y última milla.</li>
+              </ul>
+              <button class="btn btn-primary small" data-random-alert>Simular alerta operativa</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="demo-panel" id="database" data-panel>
+          <div class="demo-layout">
+            <div class="demo-visual db-demo">
+              <div class="db-toolbar">
+                <span>Base operativa · órdenes_transporte</span>
+                <button class="btn btn-ghost tiny" data-add-order>+ Agregar orden demo</button>
+              </div>
+              <div class="table-wrap">
+                <table>
+                  <thead><tr><th>Folio</th><th>Cliente</th><th>Estado</th><th>Prioridad</th><th>Incidencias</th></tr></thead>
+                  <tbody id="ordersTable"></tbody>
+                </table>
+              </div>
+              <pre class="code-block" id="apiEvent"></pre>
+            </div>
+            <div class="demo-copy">
+              <h3>Base de datos automatizada y auditable</h3>
+              <p>Registra órdenes, clientes, unidades, eventos, evidencias, usuarios, incidencias y detecciones con historial confiable.</p>
+              <ul>
+                <li><strong>Problema que resuelve:</strong> recaptura, duplicidad de archivos, pérdida de evidencia y baja trazabilidad.</li>
+                <li><strong>Valor para la operación:</strong> información consistente, auditable y lista para dashboards o integraciones.</li>
+                <li><strong>Ejemplo:</strong> una orden retrasada genera evento, actualiza tablero y notifica al responsable.</li>
+              </ul>
+              <a class="link" href="assets/data/modelo-operativo-logistica.sql" download>Descargar modelo SQL de ejemplo</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="demo-panel" id="qr" data-panel>
+          <div class="demo-layout">
+            <div class="demo-visual qr-demo">
+              <div class="phone">
+                <div class="phone-top"></div>
+                <div class="scan-box"><span></span><strong>QR / Código de barras</strong></div>
+                <p class="scan-status" id="scanStatus">Listo para escanear activo, unidad o evidencia.</p>
+                <button class="btn btn-primary tiny" data-scan>Simular escaneo</button>
+              </div>
+              <div class="timeline" id="timeline"></div>
+            </div>
+            <div class="demo-copy">
+              <h3>Trazabilidad por QR, código de barras o folio operativo</h3>
+              <p>Cada movimiento puede registrarse con fecha, responsable, ubicación, evidencia y estado. El historial puede aplicarse a entregas, activos, inventario, mantenimiento o documentación.</p>
+              <ul>
+                <li><strong>Problema que resuelve:</strong> desconocer dónde está un activo, quién lo movió o cuándo ocurrió una incidencia.</li>
+                <li><strong>Valor para la operación:</strong> historial claro para auditorías, seguimiento interno y servicio al cliente.</li>
+                <li><strong>Aplicable a:</strong> unidades, remolques, pallets, documentos, evidencias fotográficas y mantenimiento.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="demo-panel" id="vision" data-panel>
+          <div class="demo-layout">
+            <div class="demo-visual vision-demo risk-demo">
+              <img src="assets/images/ia-camaras.jpg" alt="Zona de riesgo monitoreada con inteligencia artificial" />
+              <div class="risk-zone"><span>Zona de riesgo detectada · 92%</span></div>
+              <div class="risk-line"></div>
+              <div class="vision-log">
+                <strong>Evento IA</strong>
+                <p id="visionLog">Cámara Patio Norte · persona dentro de zona restringida · alerta preventiva generada.</p>
+              </div>
+            </div>
+            <div class="demo-copy">
+              <h3>Detección de zona de riesgo con IA</h3>
+              <p>La visión artificial puede monitorear zonas restringidas, áreas de maniobra, andenes o cruces peatonales para detectar presencia no esperada y generar alertas preventivas.</p>
+              <ul>
+                <li><strong>Problema que resuelve:</strong> supervisión manual limitada en zonas donde un evento puede convertirse en incidente.</li>
+                <li><strong>Valor para la operación:</strong> alertas visuales, evidencia, bitácora y métricas de eventos por cámara o ubicación.</li>
+                <li><strong>Implementación:</strong> piloto con una cámara, una zona definida y reglas de alerta ajustadas al proceso.</li>
+              </ul>
+              <button class="btn btn-primary small" data-ai-event>Simular evento IA</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="demo-panel" id="integraciones" data-panel>
+          <div class="demo-layout integration-layout">
+            <div class="demo-visual integration-demo">
+              <div class="integration-map" aria-label="Arquitectura de integración">
+                <div class="system-node source">ERP / WMS / TMS</div>
+                <div class="connector-line"></div>
+                <div class="system-node api">API Interdato</div>
+                <div class="connector-line"></div>
+                <div class="system-node db">Base de datos</div>
+                <div class="connector-line"></div>
+                <div class="system-node dashboard">Dashboard + Alertas</div>
+              </div>
+              <div class="integration-cards">
+                <article><strong>Entrada</strong><span>Formularios, sensores, cámaras, archivos, ERP o WMS.</span></article>
+                <article><strong>Procesamiento</strong><span>Validación, normalización, reglas, APIs y automatizaciones.</span></article>
+                <article><strong>Salida</strong><span>Dashboard, correo, WhatsApp, reportes, bitácoras y alertas.</span></article>
+              </div>
+            </div>
+            <div class="demo-copy">
+              <h3>Integraciones con sistemas y automatización de flujos</h3>
+              <p>Las soluciones pueden conectarse con ERP, CRM, WMS, TMS, bases de datos, formularios, correo, WhatsApp o plataformas existentes mediante API.</p>
+              <ul>
+                <li><strong>Problema que resuelve:</strong> información aislada entre áreas, plataformas o archivos.</li>
+                <li><strong>Valor para la operación:</strong> menos recaptura, menos errores, alertas automáticas y datos listos para análisis.</li>
+                <li><strong>Ejemplo:</strong> una incidencia en ruta actualiza el dashboard, crea bitácora, adjunta evidencia y notifica al responsable.</li>
+              </ul>
+              <a class="link" href="assets/data/api-orden-ejemplo.json" download>Descargar ejemplo JSON de evento</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section video-section" id="videos">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="kicker">Videos demostrativos</p>
+            <h2>Casos visuales aplicados a operación real.</h2>
+          </div>
+          <p>Los videos muestran escenarios de análisis, monitoreo y detección que pueden convertirse en pilotos de automatización, seguridad, inventario o inteligencia operativa.</p>
+        </div>
+
+        <div class="video-grid">
+          <article class="video-card featured">
+            <video controls preload="metadata" poster="assets/images/poster-dashboard-operativo-demo.jpg">
+              <source src="assets/videos/dashboard-operativo-demo.mp4" type="video/mp4" />
+            </video>
+            <div class="video-body">
+              <span class="tag">Dashboard / BI</span>
+              <h3>Dashboard operativo de logística</h3>
+              <p><strong>Qué muestra:</strong> una vista ejecutiva de órdenes, cumplimiento, retrasos, incidencias y rutas críticas.</p>
+              <p><strong>Cómo ayuda:</strong> concentra información dispersa en una sola pantalla para priorizar decisiones operativas.</p>
+              <p><strong>Solución aplicable:</strong> tablero web o Power BI conectado a base de datos, Excel, API o sistema interno.</p>
+            </div>
+          </article>
+
+          <article class="video-card featured">
+            <video controls preload="metadata" poster="assets/images/poster-ia-deteccion-demo.jpg">
+              <source src="assets/videos/ia-deteccion-demo.mp4" type="video/mp4" />
+            </video>
+            <div class="video-body">
+              <span class="tag">IA visual</span>
+              <h3>Monitoreo visual con IA</h3>
+              <p><strong>Qué muestra:</strong> una simulación de detección visual sobre un entorno industrial.</p>
+              <p><strong>Cómo ayuda:</strong> convierte una cámara en una fuente de datos, alertas y evidencia operativa.</p>
+              <p><strong>Solución aplicable:</strong> piloto de visión artificial con una cámara y un caso de uso específico.</p>
+            </div>
+          </article>
+
+          <article class="video-card">
+            <video controls preload="metadata" poster="assets/images/poster-epp-deteccion-personas-demo.jpg">
+              <source src="assets/videos/epp-deteccion-personas-demo.mp4" type="video/mp4" />
+            </video>
+            <div class="video-body">
+              <span class="tag">Seguridad / EPP</span>
+              <h3>Detección de equipo de protección personal</h3>
+              <p><strong>Qué hace:</strong> identifica personas y valida visualmente elementos como casco, chaleco u otros equipos requeridos.</p>
+              <p><strong>Cómo ayuda:</strong> documenta cumplimiento, reduce supervisión manual y genera alertas en zonas críticas.</p>
+              <p><strong>Aplicable a:</strong> patios, andenes, almacenes, plantas, áreas de carga, accesos y zonas restringidas.</p>
+            </div>
+          </article>
+
+          <article class="video-card">
+            <video controls preload="metadata" poster="assets/images/poster-inventario-racks-demo.jpg">
+              <source src="assets/videos/inventario-racks-demo.mp4" type="video/mp4" />
+            </video>
+            <div class="video-body">
+              <span class="tag">Inventario / Racks</span>
+              <h3>Detección de inventario en racks</h3>
+              <p><strong>Qué hace:</strong> analiza posiciones de racks para identificar ocupación, presencia de pallets, espacios vacíos o diferencias visuales.</p>
+              <p><strong>Cómo ayuda:</strong> acelera conteos, mejora visibilidad de almacén y apoya conciliaciones contra el sistema.</p>
+              <p><strong>Aplicable a:</strong> almacenes, centros de distribución, racks industriales, inventarios cíclicos y auditorías visuales.</p>
+            </div>
+          </article>
+
+          <article class="video-card">
+            <video controls preload="metadata" poster="assets/images/poster-postura-ergonomia-demo.jpg">
+              <source src="assets/videos/postura-ergonomia-demo.mp4" type="video/mp4" />
+            </video>
+            <div class="video-body">
+              <span class="tag">Ergonomía / Prevención</span>
+              <h3>Detección de postura y ergonomía</h3>
+              <p><strong>Qué hace:</strong> identifica posturas, ángulos corporales o patrones de movimiento asociados a riesgo ergonómico.</p>
+              <p><strong>Cómo ayuda:</strong> documenta riesgos, prioriza capacitaciones y apoya programas de prevención de lesiones.</p>
+              <p><strong>Aplicable a:</strong> carga y descarga, picking, estaciones de trabajo, plantas industriales y maniobras repetitivas.</p>
+            </div>
+          </article>
+
+          <article class="video-card">
+            <video controls preload="metadata" poster="assets/images/poster-validacion-epp-demo.jpg">
+              <source src="assets/videos/validacion-epp-demo.mp4" type="video/mp4" />
+            </video>
+            <div class="video-body">
+              <span class="tag">EPP / Control operativo</span>
+              <h3>Validación de EPP en zonas operativas</h3>
+              <p><strong>Qué hace:</strong> refuerza la validación visual para identificar cumplimiento o incumplimiento de equipo de seguridad.</p>
+              <p><strong>Cómo ayuda:</strong> opera como filtro preventivo antes de entrar a zonas de riesgo o como monitoreo continuo.</p>
+              <p><strong>Aplicable a:</strong> accesos a planta, andenes, patios, estaciones de carga y áreas con políticas de seguridad.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="soluciones">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="kicker">Soluciones a la medida</p>
+            <h2>Proyectos que pueden iniciar como piloto.</h2>
+          </div>
+          <p>El alcance puede comenzar con un proceso específico, medir impacto y escalar por módulos conforme crece la operación.</p>
+        </div>
+        <div class="solution-grid">
+          <article><span>01</span><h3>Sistema operativo a la medida</h3><p>Control de órdenes, rutas, clientes, unidades, evidencias, incidencias, patios o almacén.</p></article>
+          <article><span>02</span><h3>Dashboards y BI</h3><p>Tableros para dirección y operaciones con KPIs de cumplimiento, tiempos, productividad y costos.</p></article>
+          <article><span>03</span><h3>Trazabilidad QR</h3><p>Escaneo de activos, unidades, documentos, pallets, mantenimientos o entregas con historial auditable.</p></article>
+          <article><span>04</span><h3>IA con cámaras</h3><p>Detección de zonas de riesgo, EPP, racks, posturas, conteos, eventos o anomalías.</p></article>
+          <article><span>05</span><h3>Automatización de procesos</h3><p>Flujos de captura, validación, notificación, autorización y reporte para reducir trabajo manual.</p></article>
+          <article><span>06</span><h3>Integraciones y APIs</h3><p>Conexión con ERP, CRM, WMS, TMS, bases de datos, formularios, correo o WhatsApp.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section architecture">
+      <div class="container two-col align-center">
+        <div>
+          <p class="kicker">Flujo de automatización</p>
+          <h2>De captura operativa a decisiones en dashboard.</h2>
+          <p>Una solución puede crecer por etapas: captura digital, base de datos, automatización de alertas, tableros ejecutivos y modelos de IA conectados al proceso.</p>
+          <a class="link" href="assets/data/flujo-automatizacion.md" download>Descargar flujo de automatización</a>
+        </div>
+        <div class="flow-board" aria-label="Flujo de automatización">
+          <article class="flow-step"><span>01</span><h3>Captura</h3><p>Formularios, QR, cámaras, archivos o integraciones recolectan eventos operativos.</p></article>
+          <article class="flow-step"><span>02</span><h3>Validación</h3><p>Reglas de negocio limpian datos, detectan faltantes y generan bitácoras.</p></article>
+          <article class="flow-step"><span>03</span><h3>Automatización</h3><p>Alertas, correos, actualizaciones de estado y tareas se ejecutan sin recaptura.</p></article>
+          <article class="flow-step"><span>04</span><h3>Decisión</h3><p>Dashboards y reportes muestran cumplimiento, riesgos, costos e incidencias.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section roi" id="roi">
+      <div class="container roi-box">
+        <div>
+          <p class="kicker">ROI operativo</p>
+          <h2>Calculadora rápida de ahorro potencial.</h2>
+          <p>Estimación inicial del impacto económico que puede lograrse al reducir horas manuales, recaptura e incidencias operativas.</p>
+        </div>
+        <div class="calculator">
+          <label>Horas manuales por semana <input type="number" id="hours" value="12" min="0"></label>
+          <label>Costo por hora operativa (MXN) <input type="number" id="cost" value="180" min="0"></label>
+          <label>Errores/incidencias al mes <input type="number" id="errors" value="8" min="0"></label>
+          <label>Costo promedio por incidencia (MXN) <input type="number" id="errorCost" value="750" min="0"></label>
+          <div class="result"><span>Ahorro mensual estimado</span><strong id="roiResult">$0 MXN</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section downloads" id="presentacion">
+      <div class="container download-grid">
+        <div>
+          <p class="kicker">Material comercial</p>
+          <h2>Presentación y datos de ejemplo.</h2>
+          <p>Consulta la presentación, revisa archivos de ejemplo y explora cómo una idea puede evolucionar hacia una solución digital completa.</p>
+          <div class="download-actions">
+            <a class="btn btn-primary" href="assets/docs/presentacion-interdato-soluciones-digitales.pdf" target="_blank" rel="noopener">Abrir PDF</a>
+            <a class="btn btn-secondary" href="assets/docs/presentacion-interdato-soluciones-digitales.pptx" download>Descargar PPTX</a>
+            <a class="btn btn-secondary" href="assets/data/ordenes-demo.csv" download>CSV demo</a>
+          </div>
+        </div>
+        <div class="qr-card">
+          <img src="assets/images/qr-solucionesdigitales.png" alt="QR del portafolio Interdato" />
+        </div>
+      </div>
+    </section>
+
+    <section class="cta" id="contacto">
+      <div class="container cta-inner">
+        <div>
+          <p class="kicker">Siguiente paso</p>
+          <h2>Agenda un diagnóstico o piloto de solución digital.</h2>
+          <p>El primer proyecto puede enfocarse en dashboard, trazabilidad, automatización, integraciones o detección con cámaras.</p>
+        </div>
+        <div class="contact-card">
+          <strong>Interdato</strong>
+          <span>Tecnología que mueve operaciones.</span>
+          <a href="mailto:contacto@interdato.com?subject=Diagnóstico%20de%20solución%20digital%20para%20logística">contacto@interdato.com</a>
+          <a href="https://interdato.com" target="_blank" rel="noopener">interdato.com</a>
+          <small>Monterrey, Nuevo León · México</small>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <span>© Interdato · Soluciones digitales para logística, transporte e industria.</span>
+      <span>Dashboards · Sistemas · QR · Automatización · IA con cámaras</span>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
