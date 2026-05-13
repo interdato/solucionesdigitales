@@ -1,0 +1,38 @@
+[
+  {
+    "titulo": "Dashboard operativo",
+    "archivo": "dashboard-operativo-demo.mp4",
+    "problema": "Falta de visibilidad diaria sobre retrasos, órdenes e incidencias.",
+    "valor": "Centraliza KPIs para tomar decisiones rápidas."
+  },
+  {
+    "titulo": "IA con cámaras - demo conceptual",
+    "archivo": "ia-deteccion-demo.mp4",
+    "problema": "Monitoreo manual constante de almacenes o patios.",
+    "valor": "Identifica eventos visuales y genera alertas."
+  },
+  {
+    "titulo": "Detección de EPP",
+    "archivo": "epp-deteccion-personas-demo.mp4",
+    "problema": "Riesgo operativo por personal sin equipo de protección.",
+    "valor": "Detecta casco, chaleco u otros elementos y ayuda a documentar cumplimiento."
+  },
+  {
+    "titulo": "Inventario en racks",
+    "archivo": "inventario-racks-demo.mp4",
+    "problema": "Conteos manuales lentos o diferencias de inventario.",
+    "valor": "Apoya conteos visuales, ocupación de racks y monitoreo de posiciones."
+  },
+  {
+    "titulo": "Postura y ergonomía",
+    "archivo": "postura-ergonomia-demo.mp4",
+    "problema": "Riesgos ergonómicos difíciles de observar de forma continua.",
+    "valor": "Permite identificar posturas de riesgo y crear acciones preventivas."
+  },
+  {
+    "titulo": "Validación EPP avanzada",
+    "archivo": "validacion-epp-demo.mp4",
+    "problema": "Supervisión inconsistente en entradas, andenes o zonas críticas.",
+    "valor": "Refuerza controles de seguridad con evidencia visual."
+  }
+]
